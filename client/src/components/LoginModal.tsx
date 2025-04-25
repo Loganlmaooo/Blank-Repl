@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
+import { useGlowEffect } from '@/lib/animation'; // Added import for useGlowEffect
 
 interface LoginModalProps {
   onClose: () => void;
@@ -14,10 +15,10 @@ export default function LoginModal({ onClose }: LoginModalProps) {
   const [username, setUsername] = useState("");
   const modalRef = useRef<HTMLDivElement>(null);
   const formRef = useRef<HTMLFormElement>(null);
-  
+
   useGlowEffect(modalRef, '#ffd700');
   useParallax();
-  
+
   useEffect(() => {
     if (formRef.current) {
       formRef.current.style.transform = 'translateY(20px)';
