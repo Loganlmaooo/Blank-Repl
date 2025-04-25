@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
@@ -10,9 +11,15 @@ export default function PremiumFeatures() {
     prioritySupport: false,
     highRateLimits: false,
     earlyAccess: false,
-    socialIntegration: false
+    autoPosting: false,
+    socialAnalytics: false,
+    socialWidgets: false,
+    crossPlatformPosting: false,
+    ddosProtection: false,
+    ipWhitelisting: false,
+    twoFactor: false
   });
-
+  
   const { toast } = useToast();
 
   const toggleFeature = async (feature: string) => {
@@ -22,7 +29,7 @@ export default function PremiumFeatures() {
         feature,
         enabled: newValue
       });
-
+      
       setFeatures(prev => ({
         ...prev,
         [feature]: newValue
@@ -50,34 +57,59 @@ export default function PremiumFeatures() {
         <CardContent>
           <div className="space-y-6">
             <div className="space-y-4">
-              <h3 className="font-semibold">Performance</h3>
+              <h3 className="font-semibold">Social Media Integration</h3>
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="font-medium">Priority Support</h4>
-                  <p className="text-sm text-muted-foreground">Get faster response times and dedicated support</p>
+                  <h4 className="font-medium">Auto-Posting</h4>
+                  <p className="text-sm text-muted-foreground">Schedule and automate posts across platforms</p>
                 </div>
-                <Switch checked={features.prioritySupport} onCheckedChange={() => toggleFeature('prioritySupport')} />
+                <Switch checked={features.autoPosting} onCheckedChange={() => toggleFeature('autoPosting')} />
               </div>
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="font-medium">Higher Rate Limits</h4>
-                  <p className="text-sm text-muted-foreground">1000 requests per minute + no artificial delays</p>
+                  <h4 className="font-medium">Social Analytics</h4>
+                  <p className="text-sm text-muted-foreground">Advanced metrics and engagement tracking</p>
                 </div>
-                <Switch checked={features.highRateLimits} onCheckedChange={() => toggleFeature('highRateLimits')} />
+                <Switch checked={features.socialAnalytics} onCheckedChange={() => toggleFeature('socialAnalytics')} />
               </div>
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="font-medium">Early Access</h4>
-                  <p className="text-sm text-muted-foreground">Get early access to new features and updates</p>
+                  <h4 className="font-medium">Custom Widgets</h4>
+                  <p className="text-sm text-muted-foreground">Embed customizable social media feeds</p>
                 </div>
-                <Switch checked={features.earlyAccess} onCheckedChange={() => toggleFeature('earlyAccess')} />
+                <Switch checked={features.socialWidgets} onCheckedChange={() => toggleFeature('socialWidgets')} />
               </div>
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="font-medium">Social Integration</h4>
-                  <p className="text-sm text-muted-foreground">Advanced social media integration features</p>
+                  <h4 className="font-medium">Cross-Platform Posting</h4>
+                  <p className="text-sm text-muted-foreground">Post to multiple platforms simultaneously</p>
                 </div>
-                <Switch checked={features.socialIntegration} onCheckedChange={() => toggleFeature('socialIntegration')} />
+                <Switch checked={features.crossPlatformPosting} onCheckedChange={() => toggleFeature('crossPlatformPosting')} />
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <h3 className="font-semibold">Security</h3>
+              <div className="flex items-center justify-between">
+                <div>
+                  <h4 className="font-medium">DDoS Protection</h4>
+                  <p className="text-sm text-muted-foreground">Advanced protection against DDoS attacks</p>
+                </div>
+                <Switch checked={features.ddosProtection} onCheckedChange={() => toggleFeature('ddosProtection')} />
+              </div>
+              <div className="flex items-center justify-between">
+                <div>
+                  <h4 className="font-medium">IP Whitelisting</h4>
+                  <p className="text-sm text-muted-foreground">Restrict access to trusted IP addresses</p>
+                </div>
+                <Switch checked={features.ipWhitelisting} onCheckedChange={() => toggleFeature('ipWhitelisting')} />
+              </div>
+              <div className="flex items-center justify-between">
+                <div>
+                  <h4 className="font-medium">Two-Factor Authentication</h4>
+                  <p className="text-sm text-muted-foreground">Enhanced account security</p>
+                </div>
+                <Switch checked={features.twoFactor} onCheckedChange={() => toggleFeature('twoFactor')} />
               </div>
             </div>
           </div>
