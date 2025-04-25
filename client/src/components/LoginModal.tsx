@@ -4,6 +4,7 @@ import { Dialog } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { Checkbox } from "@/components/ui/checkbox";
 import { useToast } from "@/hooks/use-toast";
 import { useGlowEffect } from '@/lib/animation'; // Added import for useGlowEffect
 
@@ -138,12 +139,28 @@ export default function LoginModal({ onClose }: LoginModalProps) {
               placeholder="Enter password"
               disabled={isLoading}
             />
-            <input type="checkbox" id="showPassword" checked={showPassword} onChange={() => setShowPassword(!showPassword)} />
-            <label htmlFor="showPassword">Show Password</label>
+            <div className="flex items-center space-x-2 mt-2">
+              <Checkbox 
+                id="showPassword" 
+                checked={showPassword} 
+                onCheckedChange={() => setShowPassword(!showPassword)}
+                className="border-primary/30"
+              />
+              <Label htmlFor="showPassword" className="text-sm text-gray-300 cursor-pointer">
+                Show password
+              </Label>
+            </div>
           </div>
-          <div>
-            <input type="checkbox" id="rememberMe" checked={rememberMe} onChange={(e) => setRememberMe(e.target.checked)} />
-            <label htmlFor="rememberMe">Remember Me</label>
+          <div className="flex items-center space-x-2">
+            <Checkbox 
+              id="rememberMe" 
+              checked={rememberMe} 
+              onCheckedChange={(checked) => setRememberMe(checked as boolean)}
+              className="border-primary/30"
+            />
+            <Label htmlFor="rememberMe" className="text-sm text-gray-300 cursor-pointer">
+              Remember me
+            </Label>
           </div>
           <div className="pt-2">
             <Button
