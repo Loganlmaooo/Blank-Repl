@@ -39,7 +39,7 @@ export const THEMES: Record<Exclude<ThemeName, "custom">, Theme> = {
       text: "#FFFFFF"
     },
     backgroundImage: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-    particleEffect: "none",
+    particleEffect: null,
     specialEffects: []
   },
   christmas: {

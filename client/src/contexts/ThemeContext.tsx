@@ -133,70 +133,10 @@ const applyEffects = (theme: Theme) => {
   existingParticles.forEach(container => container.remove());
 
   if (!theme) return;
-
+  
   // Clean up any existing particle effects
   const existingContainers = document.querySelectorAll('.particles-container');
   existingContainers.forEach(container => container.remove());
-
-  // Only apply new effects if they are specifically enabled
-  const particleEffect = theme.particleEffect || (theme.name === 'christmas' ? 'snow' : 
-                                               theme.name === 'newyear' ? 'fireworks' :
-                                               theme.name === 'valentines' ? 'hearts' :
-                                               theme.name === 'stpatrick' ? 'clovers' :
-                                               theme.name === 'easter' ? 'eggs' :
-                                               theme.name === 'halloween' ? 'bats' : null);
-
-  const n = particleEffect;
-  if (n && n !== 'none' && n !== null) {
-    switch (n) {
-      case 'gold':
-        createParticleEffect({
-          count: 50,
-          className: 'gold-particle',
-          duration: 3000
-        });
-        break;
-      case 'dust':
-        createParticleEffect({
-          count: 30,
-          className: 'gold-dust',
-          duration: 4000
-        });
-        break;
-      case 'shimmer':
-        createParticleEffect({
-          count: 20,
-          className: 'shimmer-particle',
-          duration: 2000
-        });
-        break;
-      case 'sparkle':
-        createParticleEffect({
-          count: 40,
-          className: 'sparkle-particle',
-          duration: 2500
-        });
-        break;
-      case 'snow':
-        createSnowEffect();
-        break;
-      case 'fireworks':
-        createFireworksEffect();
-        break;
-      case 'hearts':
-        createHeartsEffect();
-        break;
-      case 'clovers':
-        createCloversEffect();
-        break;
-      case 'eggs':
-        createEggsEffect();
-        break;
-      case 'bats':
-        createBatsEffect();
-        break;
-    }
-  }
 
   // Apply additional special effects
   theme.specialEffects.forEach(effect => {
