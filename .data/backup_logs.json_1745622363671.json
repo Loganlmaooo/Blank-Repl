@@ -54,33 +54,5 @@
     "source": "audit",
     "id": 8,
     "timestamp": "2025-04-25T23:06:01.687Z"
-  },
-  {
-    "level": "info",
-    "message": "Request to /src/App.tsx from 172.31.128.50",
-    "source": "audit",
-    "id": 9,
-    "timestamp": "2025-04-25T23:06:03.676Z"
-  },
-  {
-    "level": "info",
-    "message": "Request to /src/index.css from 172.31.128.50",
-    "source": "audit",
-    "id": 10,
-    "timestamp": "2025-04-25T23:06:03.678Z"
-  },
-  {
-    "level": "info",
-    "message": "Request to /src/contexts/AdminContext.tsx from 172.31.128.50",
-    "source": "audit",
-    "id": 11,
-    "timestamp": "2025-04-25T23:06:03.680Z"
-  },
-  {
-    "level": "info",
-    "message": "Request to /src/components/ErrorBoundary.tsx from 172.31.128.50",
-    "source": "audit",
-    "id": 12,
-    "timestamp": "2025-04-25T23:06:03.772Z"
   }
 ]
