@@ -125,6 +125,8 @@ export const maintenanceMode = pgTable("maintenance_mode", {
   id: serial("id").primaryKey(),
   enabled: boolean("enabled").notNull().default(false),
   message: text("message"),
+  endTime: timestamp("end_time"),
+  useTimer: boolean("use_timer").notNull().default(false),
 });
 
 export const insertMaintenanceModeSchema = createInsertSchema(maintenanceMode).pick({
