@@ -641,21 +641,30 @@ app.post("/api/admin/webhook-settings", requireAuth, async (req, res) => {
     }
   });
 
+  // Security middleware
+  const ddosProtection = (req: express.Request, res: express.Response, next: express.NextFunction) => {
+    const clientIP = req.ip;
+    // Implement rate limiting and DDoS protection logic here
+    next();
+  };
+
+  const ipWhitelist = (req: express.Request, res: express.Response, next: express.NextFunction) => {
+    const clientIP = req.ip;
+    // Check IP whitelist logic here
+    next();
+  };
+
+  app.use(ddosProtection);
+  app.use(ipWhitelist);
+
   app.use(async (req, res, next) => {
     const start = Date.now();
     const path = req.path;
+    const clientIP = req.ip;
     let capturedJsonResponse: Record<string, any> | undefined = undefined;
 
-    // Premium user detection (from session)
-    const isPremium = req.session.isPremium;
-
-    // Rate limiting
-    const rateLimit = isPremium ? 1000 : 100; // requests per minute
-    const requestDelay = isPremium ? 0 : 100; // artificial delay for non-premium
-
-    if (!isPremium) {
-      await new Promise(resolve => setTimeout(resolve, requestDelay));
-    }
+    // Audit logging
+    await logAction("info", `Request to ${path} from ${clientIP}`, "audit");
 
     res.on('finish', () => {
       const end = Date.now();
