@@ -1,0 +1,1514 @@
+[
+  {
+    "level": "info",
+    "message": "Request to / from 172.31.128.50",
+    "source": "audit",
+    "id": 1,
+    "timestamp": "2025-04-25T23:05:59.183Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to / from 172.31.128.50",
+    "source": "audit",
+    "id": 2,
+    "timestamp": "2025-04-25T23:05:59.213Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/main.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 3,
+    "timestamp": "2025-04-25T23:05:59.872Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@vite/client from 172.31.128.50",
+    "source": "audit",
+    "id": 4,
+    "timestamp": "2025-04-25T23:06:00.288Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/main.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 5,
+    "timestamp": "2025-04-25T23:06:01.280Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@react-refresh from 172.31.128.50",
+    "source": "audit",
+    "id": 6,
+    "timestamp": "2025-04-25T23:06:01.371Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@react-refresh from 172.31.128.50",
+    "source": "audit",
+    "id": 7,
+    "timestamp": "2025-04-25T23:06:01.500Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@fs/home/runner/workspace/node_modules/vite/dist/client/env.mjs from 172.31.128.50",
+    "source": "audit",
+    "id": 8,
+    "timestamp": "2025-04-25T23:06:01.687Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/App.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 9,
+    "timestamp": "2025-04-25T23:06:03.676Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/index.css from 172.31.128.50",
+    "source": "audit",
+    "id": 10,
+    "timestamp": "2025-04-25T23:06:03.678Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/AdminContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 11,
+    "timestamp": "2025-04-25T23:06:03.680Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ErrorBoundary.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 12,
+    "timestamp": "2025-04-25T23:06:03.772Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/App.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 13,
+    "timestamp": "2025-04-25T23:06:05.200Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/index.css from 172.31.128.50",
+    "source": "audit",
+    "id": 14,
+    "timestamp": "2025-04-25T23:06:05.201Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/ThemeContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 15,
+    "timestamp": "2025-04-25T23:06:05.203Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/queryClient.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 16,
+    "timestamp": "2025-04-25T23:06:05.281Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/discord.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 17,
+    "timestamp": "2025-04-25T23:06:05.288Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/tooltip.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 18,
+    "timestamp": "2025-04-25T23:06:05.390Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toaster.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 19,
+    "timestamp": "2025-04-25T23:06:05.391Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/not-found.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 20,
+    "timestamp": "2025-04-25T23:06:05.473Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ErrorBoundary.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 21,
+    "timestamp": "2025-04-25T23:06:05.478Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/Home.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 22,
+    "timestamp": "2025-04-25T23:06:05.479Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/AdminContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 23,
+    "timestamp": "2025-04-25T23:06:05.480Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/ThemeContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 24,
+    "timestamp": "2025-04-25T23:06:05.501Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/theme.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 25,
+    "timestamp": "2025-04-25T23:06:05.511Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/queryClient.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 26,
+    "timestamp": "2025-04-25T23:06:05.544Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toast.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 27,
+    "timestamp": "2025-04-25T23:06:05.636Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/hooks/use-toast.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 28,
+    "timestamp": "2025-04-25T23:06:05.646Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/utils.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 29,
+    "timestamp": "2025-04-25T23:06:05.673Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/not-found.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 30,
+    "timestamp": "2025-04-25T23:06:05.704Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toaster.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 31,
+    "timestamp": "2025-04-25T23:06:05.705Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/tooltip.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 32,
+    "timestamp": "2025-04-25T23:06:05.774Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/Home.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 33,
+    "timestamp": "2025-04-25T23:06:05.785Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/Header.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 34,
+    "timestamp": "2025-04-25T23:06:05.798Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/discord.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 35,
+    "timestamp": "2025-04-25T23:06:05.849Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/Footer.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 36,
+    "timestamp": "2025-04-25T23:06:05.851Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/AnnouncementsSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 37,
+    "timestamp": "2025-04-25T23:06:05.880Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@fs/home/runner/workspace/node_modules/vite/dist/client/env.mjs from 172.31.128.50",
+    "source": "audit",
+    "id": 38,
+    "timestamp": "2025-04-25T23:06:05.884Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/StreamsSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 39,
+    "timestamp": "2025-04-25T23:06:05.906Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/SocialMediaSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 40,
+    "timestamp": "2025-04-25T23:06:05.976Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/theme.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 41,
+    "timestamp": "2025-04-25T23:06:05.977Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/HeroSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 42,
+    "timestamp": "2025-04-25T23:06:05.980Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/card.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 43,
+    "timestamp": "2025-04-25T23:06:05.983Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/hooks/use-toast.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 44,
+    "timestamp": "2025-04-25T23:06:06.055Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/LoginModal.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 45,
+    "timestamp": "2025-04-25T23:06:06.056Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/button.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 46,
+    "timestamp": "2025-04-25T23:06:06.057Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/admin/AdminPanel.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 47,
+    "timestamp": "2025-04-25T23:06:06.113Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toast.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 48,
+    "timestamp": "2025-04-25T23:06:06.130Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/animation.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 49,
+    "timestamp": "2025-04-25T23:06:06.136Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/card.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 50,
+    "timestamp": "2025-04-25T23:06:06.168Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/button.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 51,
+    "timestamp": "2025-04-25T23:06:06.199Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/twitch.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 52,
+    "timestamp": "2025-04-25T23:06:06.229Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/Footer.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 53,
+    "timestamp": "2025-04-25T23:06:06.230Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/Header.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 54,
+    "timestamp": "2025-04-25T23:06:06.242Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/HeroSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 55,
+    "timestamp": "2025-04-25T23:06:06.300Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/StreamsSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 56,
+    "timestamp": "2025-04-25T23:06:06.308Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/AnnouncementsSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 57,
+    "timestamp": "2025-04-25T23:06:06.312Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/label.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 58,
+    "timestamp": "2025-04-25T23:06:06.355Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/SocialMediaSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 59,
+    "timestamp": "2025-04-25T23:06:06.357Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/skeleton.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 60,
+    "timestamp": "2025-04-25T23:06:06.361Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/input.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 61,
+    "timestamp": "2025-04-25T23:06:06.362Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/LoginModal.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 62,
+    "timestamp": "2025-04-25T23:06:06.481Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/admin/AdminPanel.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 63,
+    "timestamp": "2025-04-25T23:06:06.494Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/utils.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 64,
+    "timestamp": "2025-04-25T23:06:06.523Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/animation.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 65,
+    "timestamp": "2025-04-25T23:06:06.532Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/twitch.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 66,
+    "timestamp": "2025-04-25T23:06:06.610Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/input.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 67,
+    "timestamp": "2025-04-25T23:06:06.719Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/skeleton.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 68,
+    "timestamp": "2025-04-25T23:06:06.720Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/label.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 69,
+    "timestamp": "2025-04-25T23:06:06.721Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to / from 172.31.128.50",
+    "source": "audit",
+    "id": 70,
+    "timestamp": "2025-04-25T23:07:22.190Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/main.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 71,
+    "timestamp": "2025-04-25T23:07:22.769Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/App.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 72,
+    "timestamp": "2025-04-25T23:07:23.069Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/ThemeContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 73,
+    "timestamp": "2025-04-25T23:07:23.460Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/queryClient.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 74,
+    "timestamp": "2025-04-25T23:07:23.757Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toaster.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 75,
+    "timestamp": "2025-04-25T23:07:23.966Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/Home.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 76,
+    "timestamp": "2025-04-25T23:07:24.231Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to / from 172.31.128.50",
+    "source": "audit",
+    "id": 77,
+    "timestamp": "2025-04-25T23:07:27.974Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to / from 172.31.128.50",
+    "source": "audit",
+    "id": 78,
+    "timestamp": "2025-04-25T23:07:27.979Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/main.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 79,
+    "timestamp": "2025-04-25T23:07:28.571Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/main.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 80,
+    "timestamp": "2025-04-25T23:07:28.979Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@vite/client from 172.31.128.50",
+    "source": "audit",
+    "id": 81,
+    "timestamp": "2025-04-25T23:07:29.100Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@react-refresh from 172.31.128.50",
+    "source": "audit",
+    "id": 82,
+    "timestamp": "2025-04-25T23:07:30.172Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@react-refresh from 172.31.128.50",
+    "source": "audit",
+    "id": 83,
+    "timestamp": "2025-04-25T23:07:30.393Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@fs/home/runner/workspace/node_modules/vite/dist/client/env.mjs from 172.31.128.50",
+    "source": "audit",
+    "id": 84,
+    "timestamp": "2025-04-25T23:07:30.398Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/App.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 85,
+    "timestamp": "2025-04-25T23:07:32.582Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/ThemeContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 86,
+    "timestamp": "2025-04-25T23:07:32.594Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ErrorBoundary.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 87,
+    "timestamp": "2025-04-25T23:07:32.597Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/index.css from 172.31.128.50",
+    "source": "audit",
+    "id": 88,
+    "timestamp": "2025-04-25T23:07:32.602Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/App.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 89,
+    "timestamp": "2025-04-25T23:07:33.490Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/index.css from 172.31.128.50",
+    "source": "audit",
+    "id": 90,
+    "timestamp": "2025-04-25T23:07:33.741Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ErrorBoundary.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 91,
+    "timestamp": "2025-04-25T23:07:33.748Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/AdminContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 92,
+    "timestamp": "2025-04-25T23:07:33.750Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/AdminContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 93,
+    "timestamp": "2025-04-25T23:07:33.756Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/queryClient.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 94,
+    "timestamp": "2025-04-25T23:07:33.812Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/theme.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 95,
+    "timestamp": "2025-04-25T23:07:33.832Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/ThemeContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 96,
+    "timestamp": "2025-04-25T23:07:33.877Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/tooltip.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 97,
+    "timestamp": "2025-04-25T23:07:33.905Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/not-found.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 98,
+    "timestamp": "2025-04-25T23:07:33.946Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/Home.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 99,
+    "timestamp": "2025-04-25T23:07:33.985Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/discord.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 100,
+    "timestamp": "2025-04-25T23:07:33.993Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/queryClient.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 101,
+    "timestamp": "2025-04-25T23:07:34.008Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toaster.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 102,
+    "timestamp": "2025-04-25T23:07:34.119Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/Home.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 103,
+    "timestamp": "2025-04-25T23:07:34.123Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/tooltip.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 104,
+    "timestamp": "2025-04-25T23:07:34.125Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/not-found.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 105,
+    "timestamp": "2025-04-25T23:07:34.127Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toaster.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 106,
+    "timestamp": "2025-04-25T23:07:34.130Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/discord.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 107,
+    "timestamp": "2025-04-25T23:07:34.171Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@fs/home/runner/workspace/node_modules/vite/dist/client/env.mjs from 172.31.128.50",
+    "source": "audit",
+    "id": 108,
+    "timestamp": "2025-04-25T23:07:34.209Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/utils.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 109,
+    "timestamp": "2025-04-25T23:07:34.218Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/button.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 110,
+    "timestamp": "2025-04-25T23:07:34.225Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/card.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 111,
+    "timestamp": "2025-04-25T23:07:34.278Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/card.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 112,
+    "timestamp": "2025-04-25T23:07:34.368Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/button.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 113,
+    "timestamp": "2025-04-25T23:07:34.373Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/Header.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 114,
+    "timestamp": "2025-04-25T23:07:34.390Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/utils.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 115,
+    "timestamp": "2025-04-25T23:07:34.396Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/HeroSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 116,
+    "timestamp": "2025-04-25T23:07:34.404Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/Footer.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 117,
+    "timestamp": "2025-04-25T23:07:34.414Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/Header.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 118,
+    "timestamp": "2025-04-25T23:07:34.420Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/AnnouncementsSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 119,
+    "timestamp": "2025-04-25T23:07:34.474Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/SocialMediaSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 120,
+    "timestamp": "2025-04-25T23:07:34.475Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/Footer.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 121,
+    "timestamp": "2025-04-25T23:07:34.545Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/StreamsSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 122,
+    "timestamp": "2025-04-25T23:07:34.579Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/HeroSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 123,
+    "timestamp": "2025-04-25T23:07:34.598Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/AnnouncementsSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 124,
+    "timestamp": "2025-04-25T23:07:34.602Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/LoginModal.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 125,
+    "timestamp": "2025-04-25T23:07:34.606Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/admin/AdminPanel.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 126,
+    "timestamp": "2025-04-25T23:07:34.609Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/StreamsSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 127,
+    "timestamp": "2025-04-25T23:07:34.635Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/SocialMediaSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 128,
+    "timestamp": "2025-04-25T23:07:34.673Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/theme.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 129,
+    "timestamp": "2025-04-25T23:07:34.691Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/admin/AdminPanel.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 130,
+    "timestamp": "2025-04-25T23:07:34.696Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/animation.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 131,
+    "timestamp": "2025-04-25T23:07:34.706Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/hooks/use-toast.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 132,
+    "timestamp": "2025-04-25T23:07:34.764Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toast.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 133,
+    "timestamp": "2025-04-25T23:07:34.790Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/LoginModal.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 134,
+    "timestamp": "2025-04-25T23:07:34.819Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/animation.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 135,
+    "timestamp": "2025-04-25T23:07:34.825Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/twitch.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 136,
+    "timestamp": "2025-04-25T23:07:34.839Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/hooks/use-toast.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 137,
+    "timestamp": "2025-04-25T23:07:34.852Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/skeleton.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 138,
+    "timestamp": "2025-04-25T23:07:34.855Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/label.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 139,
+    "timestamp": "2025-04-25T23:07:34.919Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toast.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 140,
+    "timestamp": "2025-04-25T23:07:34.931Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/input.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 141,
+    "timestamp": "2025-04-25T23:07:34.943Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/twitch.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 142,
+    "timestamp": "2025-04-25T23:07:35.022Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/skeleton.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 143,
+    "timestamp": "2025-04-25T23:07:35.051Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/label.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 144,
+    "timestamp": "2025-04-25T23:07:35.058Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/input.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 145,
+    "timestamp": "2025-04-25T23:07:35.092Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to / from 172.31.128.50",
+    "source": "audit",
+    "id": 146,
+    "timestamp": "2025-04-25T23:08:18.733Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/main.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 147,
+    "timestamp": "2025-04-25T23:08:19.292Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@vite/client from 172.31.128.50",
+    "source": "audit",
+    "id": 148,
+    "timestamp": "2025-04-25T23:08:19.685Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@react-refresh from 172.31.128.50",
+    "source": "audit",
+    "id": 149,
+    "timestamp": "2025-04-25T23:08:19.686Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/App.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 150,
+    "timestamp": "2025-04-25T23:08:20.116Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/AdminContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 151,
+    "timestamp": "2025-04-25T23:08:20.133Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@fs/home/runner/workspace/node_modules/vite/dist/client/env.mjs from 172.31.128.50",
+    "source": "audit",
+    "id": 152,
+    "timestamp": "2025-04-25T23:08:20.151Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/discord.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 153,
+    "timestamp": "2025-04-25T23:08:20.364Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/queryClient.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 154,
+    "timestamp": "2025-04-25T23:08:20.374Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/index.css from 172.31.128.50",
+    "source": "audit",
+    "id": 155,
+    "timestamp": "2025-04-25T23:08:20.416Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/ThemeContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 156,
+    "timestamp": "2025-04-25T23:08:20.423Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ErrorBoundary.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 157,
+    "timestamp": "2025-04-25T23:08:20.459Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/Home.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 158,
+    "timestamp": "2025-04-25T23:08:20.571Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toaster.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 159,
+    "timestamp": "2025-04-25T23:08:20.641Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/not-found.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 160,
+    "timestamp": "2025-04-25T23:08:20.654Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/tooltip.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 161,
+    "timestamp": "2025-04-25T23:08:20.680Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/theme.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 162,
+    "timestamp": "2025-04-25T23:08:20.717Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/Footer.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 163,
+    "timestamp": "2025-04-25T23:08:20.921Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/LoginModal.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 164,
+    "timestamp": "2025-04-25T23:08:20.922Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/AnnouncementsSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 165,
+    "timestamp": "2025-04-25T23:08:20.932Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/StreamsSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 166,
+    "timestamp": "2025-04-25T23:08:20.956Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/HeroSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 167,
+    "timestamp": "2025-04-25T23:08:21.211Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/Header.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 168,
+    "timestamp": "2025-04-25T23:08:21.213Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/SocialMediaSection.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 169,
+    "timestamp": "2025-04-25T23:08:21.256Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/admin/AdminPanel.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 170,
+    "timestamp": "2025-04-25T23:08:21.305Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/utils.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 171,
+    "timestamp": "2025-04-25T23:08:21.482Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/animation.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 172,
+    "timestamp": "2025-04-25T23:08:21.484Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/button.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 173,
+    "timestamp": "2025-04-25T23:08:21.509Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/label.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 174,
+    "timestamp": "2025-04-25T23:08:21.698Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/input.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 175,
+    "timestamp": "2025-04-25T23:08:21.700Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/hooks/use-toast.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 176,
+    "timestamp": "2025-04-25T23:08:21.713Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/twitch.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 177,
+    "timestamp": "2025-04-25T23:08:21.749Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/skeleton.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 178,
+    "timestamp": "2025-04-25T23:08:21.931Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toast.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 179,
+    "timestamp": "2025-04-25T23:08:22.033Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/card.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 180,
+    "timestamp": "2025-04-25T23:08:22.103Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to / from 172.31.128.50",
+    "source": "audit",
+    "id": 181,
+    "timestamp": "2025-04-25T23:08:28.811Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to / from 172.31.128.50",
+    "source": "audit",
+    "id": 182,
+    "timestamp": "2025-04-25T23:08:28.816Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/main.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 183,
+    "timestamp": "2025-04-25T23:08:29.502Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/main.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 184,
+    "timestamp": "2025-04-25T23:08:29.503Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@vite/client from 172.31.128.50",
+    "source": "audit",
+    "id": 185,
+    "timestamp": "2025-04-25T23:08:29.573Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@react-refresh from 172.31.128.50",
+    "source": "audit",
+    "id": 186,
+    "timestamp": "2025-04-25T23:08:29.574Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/App.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 187,
+    "timestamp": "2025-04-25T23:08:30.097Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@react-refresh from 172.31.128.50",
+    "source": "audit",
+    "id": 188,
+    "timestamp": "2025-04-25T23:08:31.014Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/App.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 189,
+    "timestamp": "2025-04-25T23:08:31.090Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/ThemeContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 190,
+    "timestamp": "2025-04-25T23:08:31.202Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ErrorBoundary.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 191,
+    "timestamp": "2025-04-25T23:08:33.175Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/index.css from 172.31.128.50",
+    "source": "audit",
+    "id": 192,
+    "timestamp": "2025-04-25T23:08:33.187Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/index.css from 172.31.128.50",
+    "source": "audit",
+    "id": 193,
+    "timestamp": "2025-04-25T23:08:33.199Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ErrorBoundary.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 194,
+    "timestamp": "2025-04-25T23:08:33.205Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@fs/home/runner/workspace/node_modules/vite/dist/client/env.mjs from 172.31.128.50",
+    "source": "audit",
+    "id": 195,
+    "timestamp": "2025-04-25T23:08:33.212Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/AdminContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 196,
+    "timestamp": "2025-04-25T23:08:33.283Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/AdminContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 197,
+    "timestamp": "2025-04-25T23:08:34.188Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/tooltip.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 198,
+    "timestamp": "2025-04-25T23:08:34.282Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toaster.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 199,
+    "timestamp": "2025-04-25T23:08:34.396Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/queryClient.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 200,
+    "timestamp": "2025-04-25T23:08:34.399Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/contexts/ThemeContext.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 201,
+    "timestamp": "2025-04-25T23:08:34.433Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/tooltip.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 202,
+    "timestamp": "2025-04-25T23:08:34.450Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/queryClient.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 203,
+    "timestamp": "2025-04-25T23:08:34.484Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/not-found.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 204,
+    "timestamp": "2025-04-25T23:08:34.492Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toaster.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 205,
+    "timestamp": "2025-04-25T23:08:34.506Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/discord.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 206,
+    "timestamp": "2025-04-25T23:08:34.507Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/Home.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 207,
+    "timestamp": "2025-04-25T23:08:34.531Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/not-found.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 208,
+    "timestamp": "2025-04-25T23:08:34.558Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/theme.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 209,
+    "timestamp": "2025-04-25T23:08:34.593Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /@fs/home/runner/workspace/node_modules/vite/dist/client/env.mjs from 172.31.128.50",
+    "source": "audit",
+    "id": 210,
+    "timestamp": "2025-04-25T23:08:34.625Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/pages/Home.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 211,
+    "timestamp": "2025-04-25T23:08:34.669Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/utils.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 212,
+    "timestamp": "2025-04-25T23:08:34.675Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/discord.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 213,
+    "timestamp": "2025-04-25T23:08:34.691Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/hooks/use-toast.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 214,
+    "timestamp": "2025-04-25T23:08:34.730Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/lib/theme.ts from 172.31.128.50",
+    "source": "audit",
+    "id": 215,
+    "timestamp": "2025-04-25T23:08:34.775Z"
+  },
+  {
+    "level": "info",
+    "message": "Request to /src/components/ui/toast.tsx from 172.31.128.50",
+    "source": "audit",
+    "id": 216,
+    "timestamp": "2025-04-25T23:08:34.778Z"
+  }
+]
