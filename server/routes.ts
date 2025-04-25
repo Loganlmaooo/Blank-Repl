@@ -657,6 +657,36 @@ app.post("/api/admin/webhook-settings", requireAuth, async (req, res) => {
   app.use(ddosProtection);
   app.use(ipWhitelist);
 
+  // Content management routes
+  app.get("/api/admin/backup/download", requireAuth, async (req, res) => {
+    try {
+      const backupData = await storage.createBackup();
+      res.json(backupData);
+    } catch (error) {
+      res.status(500).json({ error: "Failed to create backup" });
+    }
+  });
+
+  app.post("/api/admin/backup/restore", requireAuth, async (req, res) => {
+    try {
+      const backupData = req.body;
+      await storage.restoreFromBackup(backupData);
+      res.json({ success: true });
+    } catch (error) {
+      res.status(500).json({ error: "Failed to restore from backup" });
+    }
+  });
+
+  app.post("/api/admin/content/:operation", requireAuth, async (req, res) => {
+    const { operation } = req.params;
+    try {
+      await storage.performBulkOperation(operation);
+      res.json({ success: true });
+    } catch (error) {
+      res.status(500).json({ error: `Failed to perform ${operation}` });
+    }
+  });
+
   app.use(async (req, res, next) => {
     const start = Date.now();
     const path = req.path;

@@ -179,6 +179,50 @@ export class FileStorage implements IStorage {
     }
   }
 
+  async createBackup() {
+    return {
+      users: Object.fromEntries(this.users),
+      announcements: Object.fromEntries(this.announcements),
+      logs: this.logs,
+      streamSettings: this.streamSettingsData,
+      themeSettings: this.themeSettingsData,
+      webhookSettings: this.webhookSettingsData,
+      version: "1.0",
+      timestamp: new Date().toISOString()
+    };
+  }
+
+  async restoreFromBackup(backupData: any) {
+    if (backupData.users) this.users = new Map(Object.entries(backupData.users));
+    if (backupData.announcements) this.announcements = new Map(Object.entries(backupData.announcements));
+    if (backupData.logs) this.logs = backupData.logs;
+    if (backupData.streamSettings) this.streamSettingsData = backupData.streamSettings;
+    if (backupData.themeSettings) this.themeSettingsData = backupData.themeSettings;
+    if (backupData.webhookSettings) this.webhookSettingsData = backupData.webhookSettings;
+    await this.saveData();
+  }
+
+  async performBulkOperation(operation: string) {
+    switch (operation) {
+      case 'publish':
+        for (const [id, announcement] of this.announcements) {
+          announcement.published = true;
+        }
+        break;
+      case 'unpublish':
+        for (const [id, announcement] of this.announcements) {
+          announcement.published = false;
+        }
+        break;
+      case 'archive':
+        for (const [id, announcement] of this.announcements) {
+          announcement.archived = true;
+        }
+        break;
+    }
+    await this.saveData();
+  }
+
   private async saveData() {
     await Promise.all([
       writeJsonFile('users.json', Object.fromEntries(this.users)),
