@@ -292,7 +292,14 @@ export default function Themes() {
                     <SelectItem value="newyear">New Year</SelectItem>
                     <SelectItem value="stpatrick">St. Patrick's Day</SelectItem>
                     <SelectItem value="easter">Easter</SelectItem>
-                    <SelectItem value="custom">Custom Theme</SelectItem>
+                    <Select>
+  <SelectTrigger>
+    <SelectValue placeholder="Select theme" />
+  </SelectTrigger>
+  <SelectContent>
+    <SelectItem value="custom">Custom Theme</SelectItem>
+  </SelectContent>
+</Select>
                   </SelectContent>
                 </Select>
 
