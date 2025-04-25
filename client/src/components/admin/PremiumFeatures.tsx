@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
@@ -11,14 +10,9 @@ export default function PremiumFeatures() {
     prioritySupport: false,
     highRateLimits: false,
     earlyAccess: false,
-    autoPosting: false,
-    analytics: false,
-    ddosProtection: false,
-    twoFactor: false,
-    contentVersioning: false,
-    backupRestore: false
+    socialIntegration: false
   });
-  
+
   const { toast } = useToast();
 
   const toggleFeature = async (feature: string) => {
@@ -28,7 +22,7 @@ export default function PremiumFeatures() {
         feature,
         enabled: newValue
       });
-      
+
       setFeatures(prev => ({
         ...prev,
         [feature]: newValue
@@ -67,45 +61,23 @@ export default function PremiumFeatures() {
               <div className="flex items-center justify-between">
                 <div>
                   <h4 className="font-medium">Higher Rate Limits</h4>
-                  <p className="text-sm text-muted-foreground">Increased API and request limits</p>
+                  <p className="text-sm text-muted-foreground">1000 requests per minute + no artificial delays</p>
                 </div>
                 <Switch checked={features.highRateLimits} onCheckedChange={() => toggleFeature('highRateLimits')} />
               </div>
-            </div>
-
-            <div className="space-y-4">
-              <h3 className="font-semibold">Security</h3>
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="font-medium">DDoS Protection</h4>
-                  <p className="text-sm text-muted-foreground">Advanced protection against DDoS attacks</p>
+                  <h4 className="font-medium">Early Access</h4>
+                  <p className="text-sm text-muted-foreground">Get early access to new features and updates</p>
                 </div>
-                <Switch checked={features.ddosProtection} onCheckedChange={() => toggleFeature('ddosProtection')} />
+                <Switch checked={features.earlyAccess} onCheckedChange={() => toggleFeature('earlyAccess')} />
               </div>
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="font-medium">Two-Factor Authentication</h4>
-                  <p className="text-sm text-muted-foreground">Enhanced account security</p>
+                  <h4 className="font-medium">Social Integration</h4>
+                  <p className="text-sm text-muted-foreground">Advanced social media integration features</p>
                 </div>
-                <Switch checked={features.twoFactor} onCheckedChange={() => toggleFeature('twoFactor')} />
-              </div>
-            </div>
-
-            <div className="space-y-4">
-              <h3 className="font-semibold">Content</h3>
-              <div className="flex items-center justify-between">
-                <div>
-                  <h4 className="font-medium">Content Versioning</h4>
-                  <p className="text-sm text-muted-foreground">Track and restore content versions</p>
-                </div>
-                <Switch checked={features.contentVersioning} onCheckedChange={() => toggleFeature('contentVersioning')} />
-              </div>
-              <div className="flex items-center justify-between">
-                <div>
-                  <h4 className="font-medium">Backup & Restore</h4>
-                  <p className="text-sm text-muted-foreground">Automated backups and restore capabilities</p>
-                </div>
-                <Switch checked={features.backupRestore} onCheckedChange={() => toggleFeature('backupRestore')} />
+                <Switch checked={features.socialIntegration} onCheckedChange={() => toggleFeature('socialIntegration')} />
               </div>
             </div>
           </div>
