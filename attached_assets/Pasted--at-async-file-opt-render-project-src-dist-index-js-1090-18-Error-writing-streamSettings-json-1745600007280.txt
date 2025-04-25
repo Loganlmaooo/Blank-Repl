@@ -1,0 +1,49 @@
+
+    at async file:///opt/render/project/src/dist/index.js:1090:18
+Error writing streamSettings.json: TypeError: objectStorage.upload_from_text is not a function
+    at writeJsonFile (file:///opt/render/project/src/dist/index.js:30:25)
+    at FileStorage.saveData (file:///opt/render/project/src/dist/index.js:104:7)
+    at FileStorage.createUser (file:///opt/render/project/src/dist/index.js:123:16)
+    at initializeDatabase (file:///opt/render/project/src/dist/index.js:509:21)
+    at async registerRoutes (file:///opt/render/project/src/dist/index.js:534:3)
+    at async file:///opt/render/project/src/dist/index.js:1090:18
+Error writing themeSettings.json: TypeError: objectStorage.upload_from_text is not a function
+    at writeJsonFile (file:///opt/render/project/src/dist/index.js:30:25)
+    at FileStorage.saveData (file:///opt/render/project/src/dist/index.js:105:7)
+    at FileStorage.createUser (file:///opt/render/project/src/dist/index.js:123:16)
+    at initializeDatabase (file:///opt/render/project/src/dist/index.js:509:21)
+    at async registerRoutes (file:///opt/render/project/src/dist/index.js:534:3)
+    at async file:///opt/render/project/src/dist/index.js:1090:18
+Error writing webhookSettings.json: TypeError: objectStorage.upload_from_text is not a function
+    at writeJsonFile (file:///opt/render/project/src/dist/index.js:30:25)
+    at FileStorage.saveData (file:///opt/render/project/src/dist/index.js:106:7)
+    at FileStorage.createUser (file:///opt/render/project/src/dist/index.js:123:16)
+    at initializeDatabase (file:///opt/render/project/src/dist/index.js:509:21)
+    at async registerRoutes (file:///opt/render/project/src/dist/index.js:534:3)
+    at async file:///opt/render/project/src/dist/index.js:1090:18
+Error initializing database: TypeError: objectStorage.upload_from_text is not a function
+    at writeJsonFile (file:///opt/render/project/src/dist/index.js:30:25)
+    at FileStorage.saveData (file:///opt/render/project/src/dist/index.js:101:7)
+    at FileStorage.createUser (file:///opt/render/project/src/dist/index.js:123:16)
+    at initializeDatabase (file:///opt/render/project/src/dist/index.js:509:21)
+    at async registerRoutes (file:///opt/render/project/src/dist/index.js:534:3)
+    at async file:///opt/render/project/src/dist/index.js:1090:18
+4:53:15 PM [express] serving on port 5000
+node:internal/deps/undici/undici:13502
+      Error.captureStackTrace(err);
+            ^
+TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getDefaultBucketId (file:///opt/render/project/src/node_modules/@replit/object-storage/dist/index.mjs:62:20)
+    at async Client.init (file:///opt/render/project/src/node_modules/@replit/object-storage/dist/index.mjs:99:51) {
+  [cause]: Error: connect ECONNREFUSED 127.0.0.1:1106
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 1106
+  }
+}
+Node.js v22.14.0

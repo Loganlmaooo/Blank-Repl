@@ -1,0 +1,49 @@
+==> Cloning from https://github.com/Loganlmaooo/Rennsz
+==> Checking out commit 0119f3a97ad81f4db2445c7c649baa3313418ecd in branch main
+==> Downloading cache...
+==> Transferred 254MB in 8s. Extraction took 5s.
+==> Using Node.js version 22.14.0 (default)
+==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+==> Using Bun version 1.1.0 (default)
+==> Docs on specifying a bun version: https://render.com/docs/bun-version
+==> Running build command 'npm install; npm run build'...
+added 65 packages, removed 1 package, changed 4 packages, and audited 553 packages in 2s
+72 packages are looking for funding
+  run `npm fund` for details
+7 moderate severity vulnerabilities
+To address issues that do not require attention, run:
+  npm audit fix
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+Run `npm audit` for details.
+> rest-express@1.0.0 build
+> vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+vite v5.4.14 building for production...
+transforming...
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+warn - The class `[&:after]:duration-[1.5s]` is ambiguous and matches multiple utilities.
+warn - If this is content and not a class, replace it with `&lsqb;&:after&rsqb;:duration-[1.5s]` to silence this warning.
+✓ 2531 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/public/index.html                   0.82 kB │ gzip:   0.48 kB
+../dist/public/assets/index-C89KOOD5.css   78.57 kB │ gzip:  13.22 kB
+../dist/public/assets/index-CxGp9v0t.js   767.47 kB │ gzip: 223.50 kB
+✓ built in 6.22s
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✘ [ERROR] The symbol "storage" has already been declared
+    server/storage.ts:416:13:
+      416 │ export const storage = new FileStorage();
+          ╵              ~~~~~~~
+  The symbol "storage" was originally declared here:
+    server/storage.ts:27:6:
+      27 │ const storage = new Client();
+         ╵       ~~~~~~~
+1 error
+==> Build failed 😞
+==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys

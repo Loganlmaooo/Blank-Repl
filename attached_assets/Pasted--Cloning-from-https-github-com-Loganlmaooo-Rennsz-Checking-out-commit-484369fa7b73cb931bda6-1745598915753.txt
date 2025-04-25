@@ -1,0 +1,78 @@
+==> Cloning from https://github.com/Loganlmaooo/Rennsz
+==> Checking out commit 484369fa7b73cb931bda679cf970ab48fec2d7d9 in branch main
+==> Downloading cache...
+==> Transferred 254MB in 8s. Extraction took 4s.
+==> Using Node.js version 22.14.0 (default)
+==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+==> Using Bun version 1.1.0 (default)
+==> Docs on specifying a bun version: https://render.com/docs/bun-version
+==> Running build command 'npm install; npm run build'...
+up to date, audited 489 packages in 1s
+64 packages are looking for funding
+  run `npm fund` for details
+7 moderate severity vulnerabilities
+To address issues that do not require attention, run:
+  npm audit fix
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+Run `npm audit` for details.
+> rest-express@1.0.0 build
+> vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+vite v5.4.14 building for production...
+transforming...
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+warn - The class `[&:after]:duration-[1.5s]` is ambiguous and matches multiple utilities.
+warn - If this is content and not a class, replace it with `&lsqb;&:after&rsqb;:duration-[1.5s]` to silence this warning.
+✓ 2531 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/public/index.html                   0.82 kB │ gzip:   0.48 kB
+../dist/public/assets/index-CNWCVWe_.css   80.08 kB │ gzip:  13.38 kB
+../dist/public/assets/index-_M-GPsbd.js   780.89 kB │ gzip: 225.65 kB
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 5.89s
+  dist/index.js  35.3kb
+⚡ Done in 7ms
+==> Uploading build...
+==> Uploaded in 7.5s. Compression took 2.6s
+==> Build successful 🎉
+==> Deploying...
+==> Running 'npm run start'
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.js
+Admin user created
+4:32:50 PM [express] serving on port 5000
+==> Your service is live 🎉
+4:33:04 PM [express] GET /api/announcements 200 in 2ms :: [{"title":"Welcome to RENNSZ's Official We…
+4:33:04 PM [express] GET /api/twitch/streams/rennszino 304 in 1ms :: {"name":"RENNSZINO","login":"re…
+4:33:04 PM [express] GET /api/twitch/streams/rennsz 200 in 1ms :: {"name":"RENNSZ","login":"rennsz",…
+4:33:04 PM [express] GET /api/twitch/streams/rennsz 200 in 2ms :: {"name":"RENNSZ","login":"rennsz",…
+4:33:04 PM [express] GET /api/theme 200 in 1ms :: {"id":1,"currentTheme":"default","customTheme":nul…
+4:33:04 PM [express] GET /api/twitch/streams/rennszino 304 in 0ms :: {"name":"RENNSZINO","login":"re…
+4:33:04 PM [express] GET /api/admin/check-auth 304 in 1ms :: {"authenticated":false}
+4:34:12 PM [express] GET /api/twitch/streams/rennszino 304 in 1ms :: {"name":"RENNSZINO","login":"re…
+4:34:12 PM [express] GET /api/announcements 304 in 1ms :: [{"title":"Welcome to RENNSZ's Official We…
+4:34:12 PM [express] GET /api/twitch/streams/rennsz 200 in 1ms :: {"name":"RENNSZ","login":"rennsz",…
+4:34:12 PM [express] GET /api/theme 304 in 0ms :: {"id":1,"currentTheme":"default","customTheme":nul…
+4:34:12 PM [express] GET /api/twitch/streams/rennsz 200 in 1ms :: {"name":"RENNSZ","login":"rennsz",…
+4:34:12 PM [express] GET /api/twitch/streams/rennszino 200 in 0ms :: {"name":"RENNSZINO","login":"re…
+4:34:12 PM [express] GET /api/admin/check-auth 304 in 0ms :: {"authenticated":false}
+4:34:12 PM [express] GET /api/twitch/streams/rennszino 304 in 1ms :: {"name":"RENNSZINO","login":"re…
+4:34:12 PM [express] GET /api/announcements 304 in 1ms :: [{"title":"Welcome to RENNSZ's Official We…
+4:34:12 PM [express] GET /api/twitch/streams/rennsz 200 in 1ms :: {"name":"RENNSZ","login":"rennsz",…
+4:34:12 PM [express] GET /api/theme 304 in 0ms :: {"id":1,"currentTheme":"default","customTheme":nul…
+4:34:12 PM [express] GET /api/twitch/streams/rennsz 200 in 1ms :: {"name":"RENNSZ","login":"rennsz",…
+4:34:12 PM [express] GET /api/twitch/streams/rennszino 200 in 0ms :: {"name":"RENNSZINO","login":"re…
+4:34:12 PM [express] GET /api/admin/check-auth 304 in 0ms :: {"authenticated":false}
+4:34:12 PM [express] GET /api/twitch/streams/rennszino 304 in 1ms :: {"name":"RENNSZINO","login":"re…
+4:34:12 PM [express] GET /api/announcements 304 in 1ms :: [{"title":"Welcome to RENNSZ's Official We…
+4:34:12 PM [express] GET /api/twitch/streams/rennsz 200 in 1ms :: {"name":"RENNSZ","login":"rennsz",…
+4:34:12 PM [express] GET /api/theme 304 in 0ms :: {"id":1,"currentTheme":"default","customTheme":nul…
+4:34:12 PM [express] GET /api/twitch/streams/rennsz 200 in 1ms :: {"name":"RENNSZ","login":"rennsz",…
+4:34:12 PM [express] GET /api/twitch/streams/rennszino 200 in 0ms :: {"name":"RENNSZINO","login":"re…
+4:34:12 PM [express] GET /api/admin/check-auth 304 in 0ms :: {"authenticated":false}

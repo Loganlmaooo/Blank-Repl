@@ -1,0 +1,87 @@
+==> Cloning from https://github.com/Loganlmaooo/Rennsz
+==> Checking out commit efb95eb4865fb1b04630a42210ad6d6b1b7a0c21 in branch main
+==> Downloading cache...
+==> Transferred 256MB in 8s. Extraction took 4s.
+==> Using Node.js version 22.14.0 (default)
+==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+==> Using Bun version 1.1.0 (default)
+==> Docs on specifying a bun version: https://render.com/docs/bun-version
+==> Running build command 'npm install; npm run build'...
+up to date, audited 553 packages in 1s
+72 packages are looking for funding
+  run `npm fund` for details
+7 moderate severity vulnerabilities
+To address issues that do not require attention, run:
+  npm audit fix
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+Run `npm audit` for details.
+> rest-express@1.0.0 build
+> vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+vite v5.4.14 building for production...
+transforming...
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+warn - The class `[&:after]:duration-[1.5s]` is ambiguous and matches multiple utilities.
+warn - If this is content and not a class, replace it with `&lsqb;&:after&rsqb;:duration-[1.5s]` to silence this warning.
+✓ 1733 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/public/index.html                   0.82 kB │ gzip:   0.48 kB
+../dist/public/assets/index-6dKnNkYP.css   78.60 kB │ gzip:  13.22 kB
+../dist/public/assets/index-CGpuNalI.js   380.23 kB │ gzip: 116.55 kB
+✓ built in 3.34s
+  dist/index.js  46.4kb
+⚡ Done in 6ms
+==> Uploading build...
+==> Uploaded in 7.9s. Compression took 3.0s
+==> Build successful 🎉
+==> Deploying...
+    at initializeDatabase (file:///opt/render/project/src/dist/index.js:803:21)
+    at async registerRoutes (file:///opt/render/project/src/dist/index.js:830:3)
+    at async file:///opt/render/project/src/dist/index.js:1386:18 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+Error writing themeSettings.json: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Object.writeFile (node:internal/fs/promises:1202:5)
+    at writeJsonFile (file:///opt/render/project/src/dist/index.js:372:14)
+    at FileStorage.saveData (file:///opt/render/project/src/dist/index.js:481:11)
+    at FileStorage.createUser (file:///opt/render/project/src/dist/index.js:499:20)
+    at initializeDatabase (file:///opt/render/project/src/dist/index.js:803:21)
+    at async registerRoutes (file:///opt/render/project/src/dist/index.js:830:3)
+    at async file:///opt/render/project/src/dist/index.js:1386:18 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+Error writing webhookSettings.json: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Object.writeFile (node:internal/fs/promises:1202:5)
+    at writeJsonFile (file:///opt/render/project/src/dist/index.js:372:14)
+    at FileStorage.saveData (file:///opt/render/project/src/dist/index.js:482:11)
+    at FileStorage.createUser (file:///opt/render/project/src/dist/index.js:499:20)
+    at initializeDatabase (file:///opt/render/project/src/dist/index.js:803:21)
+    at async registerRoutes (file:///opt/render/project/src/dist/index.js:830:3)
+    at async file:///opt/render/project/src/dist/index.js:1386:18 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+Error initializing database: TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Object.writeFile (node:internal/fs/promises:1202:5)
+    at writeJsonFile (file:///opt/render/project/src/dist/index.js:372:14)
+    at FileStorage.saveData (file:///opt/render/project/src/dist/index.js:480:11)
+    at FileStorage.createUser (file:///opt/render/project/src/dist/index.js:499:20)
+    at initializeDatabase (file:///opt/render/project/src/dist/index.js:803:21)
+    at async registerRoutes (file:///opt/render/project/src/dist/index.js:830:3)
+    at async file:///opt/render/project/src/dist/index.js:1386:18 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+6:13:24 PM [express] serving on port 5000
+==> Your service is live 🎉
+Error reading streamSettings.json: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at readJsonFile (file:///opt/render/project/src/dist/index.js:360:17)
+    at async Promise.all (index 3)
+    at async FileStorage.loadData (file:///opt/render/project/src/dist/index.js:439:99)
+    at async Promise.all (index 1)
+Discord webhook error (429): {"message": "You are being rate limited.", "retry_after": 0.3, "global": false}
+==> Detected service running on port 5000
+==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+Discord webhook error (429): {"message": "You are being rate limited.", "retry_after": 0.388, "global": false}
