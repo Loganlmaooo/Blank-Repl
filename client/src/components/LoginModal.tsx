@@ -17,7 +17,6 @@ export default function LoginModal({ onClose }: LoginModalProps) {
   const formRef = useRef<HTMLFormElement>(null);
 
   useGlowEffect(modalRef, '#ffd700');
-  useParallax();
 
   useEffect(() => {
     if (formRef.current) {
