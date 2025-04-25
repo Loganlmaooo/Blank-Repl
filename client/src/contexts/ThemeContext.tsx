@@ -142,8 +142,9 @@ const applyEffects = (theme: Theme) => {
                                                theme.name === 'easter' ? 'eggs' :
                                                theme.name === 'halloween' ? 'bats' : null);
 
-  if (particleEffect && theme.name !== 'default') {
-    switch (particleEffect) {
+  const n = particleEffect;
+  if (n && n !== 'none') {
+    switch (n) {
       case 'gold':
         createParticleEffect({
           count: 50,
