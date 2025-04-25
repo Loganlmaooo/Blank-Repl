@@ -134,7 +134,11 @@ const applyEffects = (theme: Theme) => {
 
   if (!theme) return;
 
-  // Apply theme-specific particle effects
+  // Clean up any existing particle effects
+  const existingContainers = document.querySelectorAll('.particles-container');
+  existingContainers.forEach(container => container.remove());
+
+  // Only apply new effects if they are specifically enabled
   const particleEffect = theme.particleEffect || (theme.name === 'christmas' ? 'snow' : 
                                                theme.name === 'newyear' ? 'fireworks' :
                                                theme.name === 'valentines' ? 'hearts' :
@@ -143,7 +147,7 @@ const applyEffects = (theme: Theme) => {
                                                theme.name === 'halloween' ? 'bats' : null);
 
   const n = particleEffect;
-  if (n && n !== 'none') {
+  if (n && n !== 'none' && n !== null) {
     switch (n) {
       case 'gold':
         createParticleEffect({
