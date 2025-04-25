@@ -14,6 +14,7 @@ const MaintenanceMode = lazy(() => import("./MaintenanceMode"));
 const Analytics = lazy(() => import("./Analytics"));
 const Security = lazy(() => import("./Security"));
 const Customization = lazy(() => import("./Customization"));
+const PremiumFeatures = lazy(() => import("./PremiumFeatures"));
 
 const LoadingFallback = () => (
   <div className="space-y-4">

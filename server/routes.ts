@@ -572,6 +572,22 @@ app.post("/api/admin/webhook-settings", requireAuth, async (req, res) => {
     }
   });
   
+
+  // Premium Features
+  app.post("/api/admin/premium/features", requireAuth, async (req, res) => {
+    try {
+      const { feature, enabled } = req.body;
+      
+      // Log the premium feature change
+      await logAction("info", `Premium feature ${feature} ${enabled ? 'enabled' : 'disabled'}`, "admin");
+      
+      res.json({ success: true });
+    } catch (error) {
+      console.error("Error updating premium feature:", error);
+      res.status(500).json({ message: "Failed to update premium feature" });
+    }
+  });
+
   // Admin stats and metrics
   app.get("/api/admin/stats", requireAuth, async (req, res) => {
     try {
